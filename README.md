@@ -14,7 +14,7 @@ The learned embeddings are evaluated on a downstream sentiment classification ta
 - Observations: The SGNS and GloVe models significant outperformed the others due to being able to train much quicker without needding to a compute a large softmax (as expected).
 
 ## Datasets
-- Pretraining: [Wikipedia (Hugging Face)](https://huggingface.co/datasets/wikipedia)  
+- Pretraining: [Wikipedia (Hugging Face)](https://huggingface.co/datasets/wikimedia/wikipedia/viewer/20231101.en)  
 - Evaluation: [SST-2 (Stanford Sentiment Treebank)](https://huggingface.co/datasets/glue/viewer/sst2)
 
 ## How to run
