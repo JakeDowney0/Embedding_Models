@@ -1,16 +1,16 @@
 # Embedding Models
 
 This project implements and compares several classical word embedding techniques:
-- Skip-gram (full softmax)
+- Skip-Gram (full softmax)
 - CBOW (full softmax)
-- Skip-gram with Negative Sampling
+- Skip-Gram with Negative Sampling
 - GloVe
 
 The learned embeddings are evaluated on a downstream sentiment classification task.
 
 ## Results
-- Best model: Skip-gram with Negative Sampling
-- SST-2 Accuracy: XX.X%  
+- Best model: Skip-Gram with Negative Sampling
+- SST-2 Accuracy: 85.09%  
 - Observations: The SGNS and GloVe models significant outperformed the others due to being able to train much quicker without needding to a compute a large softmax (as expected).
 
 ## Datasets
